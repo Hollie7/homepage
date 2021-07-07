@@ -1,57 +1,31 @@
-# Ant Design Pro
+# README
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+本次作业使用了React框架进行构建用户界面，以及蚂蚁团队开发的[AntD组件库](https://ant.design/index-cn)。
 
-## Environment Prepare
+因为没有数据传输需求，所以暂时没有使用后端和数据库。
 
-Install `node_modules`:
-
-```bash
-npm install
-```
-
-or
+安装umi初始化脚手架
 
 ```bash
-yarn
+npx create-umi myapp
 ```
 
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
+按照脚手架指引，依次选择ant-design-pro、Pro V4、JavaScript
 
 ```bash
-npm start
+Select the boilerplate type (Use arrow keys)
+❯ ant-design-pro  
 ```
 
-### Build project
+安装依赖
 
 ```bash
-npm run build
+cd myapp && npm install
 ```
 
-### Check code style
+安装video依赖
 
 ```bash
-npm run lint
+npm install --save video-react react react-dom redux
 ```
 
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
