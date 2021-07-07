@@ -40,12 +40,12 @@ class Research extends Component {
                                     <Row wrap={true}>
                                         <Divider orientation="left"><Title text={"个人简介"}/></Divider>
                                        
-                                        <Col flex="auto" span={20}>
+                                        <Col flex="auto" span={18}>
                                             <div className={styles.intro}>
                                                 {data.textDiv}
                                             </div>
                                         </Col>
-                                        <Col flex="150px">
+                                        <Col flex="150px" span={6}>
                                             <img
                                                 width="150px"
                                                 src="https://i.loli.net/2021/07/04/rTZAyGMYNLn12oB.png"
